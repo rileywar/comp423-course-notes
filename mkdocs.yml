@@ -1,3 +1,25 @@
 site_name: COMP423 Course Notes
 theme:
   name: material
+  features:
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    admonition:
+    note: octicons/tag-16
+    question: octicons/question-16
+    
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+

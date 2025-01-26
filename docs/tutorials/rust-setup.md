@@ -42,8 +42,8 @@ echo "# Rust Dev Container" > README.md
 git add README.md
 git commit -m "Initial commit with README"
 ```
-
-Link your repository to a remote on GitHub:
+Go onto to GitHub and create a new repository and then 
+link your local repository to your remote one on GitHub:
 ```bash
 git remote add origin https://github.com/<your-username>/<your-repository-name>.git
 ```
@@ -152,11 +152,11 @@ Output:
 Hello COMP423
 ```
 
-**Explanation of Commands**
+!!! note "Explanation of Commands"
+    ```cargo build```: Compiles the project into an executable binary for later use. Similar to gcc -o in C programming.
+    ```cargo run```: Compiles and immediately runs the program, ideal for quick testing.
 
-```cargo build```: Compiles the project into an executable binary for later use. Similar to gcc -o in C programming.
 
-```cargo run```: Compiles and immediately runs the program, ideal for quick testing.
 #
 ##Conclusion##
 
